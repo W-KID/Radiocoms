@@ -1,0 +1,134 @@
+Image type,Feature Class,Feature Name,brain1_label_label_1
+diagnostics,Versions,PyRadiomics,v3.0.1.post3+g0c53d1d
+diagnostics,Versions,Numpy,1.19.1
+diagnostics,Versions,SimpleITK,2.0.0
+diagnostics,Versions,PyWavelet,1.1.1
+diagnostics,Versions,Python,3.6.7
+diagnostics,Configuration,Settings,"{'minimumROIDimensions': 2, 'minimumROISize': None, 'normalize': False, 'normalizeScale': 1, 'removeOutliers': None, 'resampledPixelSpacing': [3.0, 3.0, 3.0], 'interpolator': 'sitkBSpline', 'preCrop': False, 'padDistance': 5, 'distances': [1], 'force2D': False, 'force2Ddimension': 0, 'resegmentRange': None, 'label': 1, 'additionalInfo': True, 'binWidth': 25.0, 'symmetricalGLCM': True, 'correctMask': True}"
+diagnostics,Configuration,EnabledImageTypes,"{'Original': {}, 'LoG': {'sigma': [4.0, 5.0]}}"
+diagnostics,Image-original,Hash,5c9ce3ca174f0f8324aa4d277e0fef82dc5ac566
+diagnostics,Image-original,Dimensionality,3D
+diagnostics,Image-original,Spacing,"(0.7812499999999999, 0.7812499999999999, 6.499999999999998)"
+diagnostics,Image-original,Size,"(256, 256, 25)"
+diagnostics,Image-original,Mean,385.6564081
+diagnostics,Image-original,Minimum,0
+diagnostics,Image-original,Maximum,3057
+diagnostics,Mask-original,Hash,9dc2c3137b31fd872997d92c9a92d5178126d9d3
+diagnostics,Mask-original,Spacing,"(0.7812499999999999, 0.7812499999999999, 6.499999999999998)"
+diagnostics,Mask-original,Size,"(256, 256, 25)"
+diagnostics,Mask-original,BoundingBox,"(162, 84, 11, 47, 70, 7)"
+diagnostics,Mask-original,VoxelNum,4137
+diagnostics,Mask-original,VolumeNum,2
+diagnostics,Mask-original,CenterOfMassIndex,"(186.98549673676578, 106.3562968334542, 14.38917089678511)"
+diagnostics,Mask-original,CenterOfMass,"(46.47304432559825, 16.518518098863908, 15.529610829103262)"
+diagnostics,Image-interpolated,Spacing,"(3.0, 3.0, 3.0)"
+diagnostics,Image-interpolated,Size,"(24, 30, 27)"
+diagnostics,Image-interpolated,Mean,567.8044753
+diagnostics,Image-interpolated,Minimum,-141
+diagnostics,Image-interpolated,Maximum,2333
+diagnostics,Mask-interpolated,Spacing,"(3.0, 3.0, 3.0)"
+diagnostics,Mask-interpolated,Size,"(24, 30, 27)"
+diagnostics,Mask-interpolated,BoundingBox,"(5, 6, 7, 12, 18, 15)"
+diagnostics,Mask-interpolated,VoxelNum,641
+diagnostics,Mask-interpolated,VolumeNum,2
+diagnostics,Mask-interpolated,CenterOfMassIndex,"(11.257410296411857, 11.249609984399376, 14.798751950078003)"
+diagnostics,Mask-interpolated,CenterOfMass,"(46.27223088923557, 16.751170046801853, 15.646255850234084)"
+diagnostics,Mask-interpolated,Mean,808.3666147
+diagnostics,Mask-interpolated,Minimum,511
+diagnostics,Mask-interpolated,Maximum,1198
+original,firstorder,10Percentile,624
+original,firstorder,90Percentile,1032
+original,firstorder,Energy,433461065
+original,firstorder,Entropy,4.505780127
+original,firstorder,InterquartileRange,237
+original,firstorder,Kurtosis,2.308452666
+original,firstorder,Maximum,1198
+original,firstorder,MeanAbsoluteDeviation,126.8573529
+original,firstorder,Mean,808.3666147
+original,firstorder,Median,782
+original,firstorder,Minimum,511
+original,firstorder,Range,687
+original,firstorder,RobustMeanAbsoluteDeviation,95.48787281
+original,firstorder,RootMeanSquared,822.3298064
+original,firstorder,Skewness,0.420219553
+original,firstorder,TotalEnergy,11703448755
+original,firstorder,Uniformity,0.04893631
+original,firstorder,Variance,22769.72675
+original,gldm,DependenceEntropy,6.406772618
+original,gldm,DependenceNonUniformity,167.5210608
+original,gldm,DependenceNonUniformityNormalized,0.261343309
+original,gldm,DependenceVariance,1.963892222
+original,gldm,GrayLevelNonUniformity,31.36817473
+original,gldm,GrayLevelVariance,36.423748
+original,gldm,HighGrayLevelEmphasis,201.5522621
+original,gldm,LargeDependenceEmphasis,7.374414977
+original,gldm,LargeDependenceHighGrayLevelEmphasis,1141.848674
+original,gldm,LargeDependenceLowGrayLevelEmphasis,0.13018207
+original,gldm,LowGrayLevelEmphasis,0.016621198
+original,gldm,SmallDependenceEmphasis,0.425722365
+original,gldm,SmallDependenceHighGrayLevelEmphasis,96.88503678
+original,gldm,SmallDependenceLowGrayLevelEmphasis,0.007644288
+log-sigma-4-0-mm-3D,firstorder,10Percentile,-193.1216736
+log-sigma-4-0-mm-3D,firstorder,90Percentile,6.77824831
+log-sigma-4-0-mm-3D,firstorder,Energy,9320916.016
+log-sigma-4-0-mm-3D,firstorder,Entropy,3.686867956
+log-sigma-4-0-mm-3D,firstorder,InterquartileRange,111.8304768
+log-sigma-4-0-mm-3D,firstorder,Kurtosis,3.442119525
+log-sigma-4-0-mm-3D,firstorder,Maximum,92.14209747
+log-sigma-4-0-mm-3D,firstorder,MeanAbsoluteDeviation,65.41652021
+log-sigma-4-0-mm-3D,firstorder,Mean,-88.13922982
+log-sigma-4-0-mm-3D,firstorder,Median,-80.75177002
+log-sigma-4-0-mm-3D,firstorder,Minimum,-366.85849
+log-sigma-4-0-mm-3D,firstorder,Range,459.0005875
+log-sigma-4-0-mm-3D,firstorder,RobustMeanAbsoluteDeviation,45.52043213
+log-sigma-4-0-mm-3D,firstorder,RootMeanSquared,120.5869422
+log-sigma-4-0-mm-3D,firstorder,Skewness,-0.571779883
+log-sigma-4-0-mm-3D,firstorder,TotalEnergy,251664732.4
+log-sigma-4-0-mm-3D,firstorder,Uniformity,0.091289205
+log-sigma-4-0-mm-3D,firstorder,Variance,6772.6868
+log-sigma-4-0-mm-3D,gldm,DependenceEntropy,6.364891426
+log-sigma-4-0-mm-3D,gldm,DependenceNonUniformity,94.1326053
+log-sigma-4-0-mm-3D,gldm,DependenceNonUniformityNormalized,0.146852738
+log-sigma-4-0-mm-3D,gldm,DependenceVariance,4.716066209
+log-sigma-4-0-mm-3D,gldm,GrayLevelNonUniformity,58.51638066
+log-sigma-4-0-mm-3D,gldm,GrayLevelVariance,10.90198865
+log-sigma-4-0-mm-3D,gldm,HighGrayLevelEmphasis,154.0421217
+log-sigma-4-0-mm-3D,gldm,LargeDependenceEmphasis,20.72854914
+log-sigma-4-0-mm-3D,gldm,LargeDependenceHighGrayLevelEmphasis,3328.132605
+log-sigma-4-0-mm-3D,gldm,LargeDependenceLowGrayLevelEmphasis,0.290415346
+log-sigma-4-0-mm-3D,gldm,LowGrayLevelEmphasis,0.016994975
+log-sigma-4-0-mm-3D,gldm,SmallDependenceEmphasis,0.173337386
+log-sigma-4-0-mm-3D,gldm,SmallDependenceHighGrayLevelEmphasis,26.97748927
+log-sigma-4-0-mm-3D,gldm,SmallDependenceLowGrayLevelEmphasis,0.002164954
+log-sigma-5-0-mm-3D,firstorder,10Percentile,-194.9119263
+log-sigma-5-0-mm-3D,firstorder,90Percentile,-3.060144901
+log-sigma-5-0-mm-3D,firstorder,Energy,10462649.85
+log-sigma-5-0-mm-3D,firstorder,Entropy,3.721114059
+log-sigma-5-0-mm-3D,firstorder,InterquartileRange,108.1122475
+log-sigma-5-0-mm-3D,firstorder,Kurtosis,3.75465477
+log-sigma-5-0-mm-3D,firstorder,Maximum,140.227356
+log-sigma-5-0-mm-3D,firstorder,MeanAbsoluteDeviation,64.70167356
+log-sigma-5-0-mm-3D,firstorder,Mean,-97.46659918
+log-sigma-5-0-mm-3D,firstorder,Median,-92.32253265
+log-sigma-5-0-mm-3D,firstorder,Minimum,-391.0927124
+log-sigma-5-0-mm-3D,firstorder,Range,531.3200684
+log-sigma-5-0-mm-3D,firstorder,RobustMeanAbsoluteDeviation,44.40754446
+log-sigma-5-0-mm-3D,firstorder,RootMeanSquared,127.7590962
+log-sigma-5-0-mm-3D,firstorder,Skewness,-0.333042984
+log-sigma-5-0-mm-3D,firstorder,TotalEnergy,282491546.1
+log-sigma-5-0-mm-3D,firstorder,Uniformity,0.090963077
+log-sigma-5-0-mm-3D,firstorder,Variance,6822.648713
+log-sigma-5-0-mm-3D,gldm,DependenceEntropy,6.32262611
+log-sigma-5-0-mm-3D,gldm,DependenceNonUniformity,101.6895476
+log-sigma-5-0-mm-3D,gldm,DependenceNonUniformityNormalized,0.15864204
+log-sigma-5-0-mm-3D,gldm,DependenceVariance,4.00242406
+log-sigma-5-0-mm-3D,gldm,GrayLevelNonUniformity,58.30733229
+log-sigma-5-0-mm-3D,gldm,GrayLevelVariance,10.99851782
+log-sigma-5-0-mm-3D,gldm,HighGrayLevelEmphasis,170.0889236
+log-sigma-5-0-mm-3D,gldm,LargeDependenceEmphasis,19.42121685
+log-sigma-5-0-mm-3D,gldm,LargeDependenceHighGrayLevelEmphasis,3429.842434
+log-sigma-5-0-mm-3D,gldm,LargeDependenceLowGrayLevelEmphasis,0.165104831
+log-sigma-5-0-mm-3D,gldm,LowGrayLevelEmphasis,0.011416635
+log-sigma-5-0-mm-3D,gldm,SmallDependenceEmphasis,0.167149156
+log-sigma-5-0-mm-3D,gldm,SmallDependenceHighGrayLevelEmphasis,29.05298782
+log-sigma-5-0-mm-3D,gldm,SmallDependenceLowGrayLevelEmphasis,0.003058706
